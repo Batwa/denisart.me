@@ -46,7 +46,7 @@ const hudHpx = (F ? hud.lines.length * F.LINE : 0) * hudK;
 const hudMid = st.heroW / Math.max(1, st.heroH) >= 0.95 ? 0.28 : 0.34;
 const p = this.props || {};
 const langs = this.wordList(p.languages, 'English, Russian, Spanish');
-const skills = this.wordList(p.skills, 'Python, SQL, HTML, CSS, Java, JavaScript, C, C++, User Research, Product Analysis, Program Coordination, Benchmarking');
+const skills = this.wordList(p.skills, 'Python, SQL, HTML, CSS, Java, JavaScript, C, C++, Git, spaCy, Presidio, OpenCV, MediaPipe, Tesseract, pytest, Ren\'Py, User Research, Product Analysis, Benchmarking');
 return {
 factsClass: (({ 'Hand-drawn': 'bf-hand', 'Clean sans': 'bf-sans' })[p.blockFont] || 'bf-serif') + (p.blockLabels === 'Pixel tags' ? ' bl-pixel' : ' bl-caps'),
 wheelClass: st.wheel && !st.paused ? 'drum-on' : '', wheelGoClass: st.wheelGo ? 'go' : '',
